@@ -1,0 +1,138 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hide {
+    display: none;
+}
+.thank_you,
+.rating {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background-color: #212832;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.star {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272e36;
+    border-radius: 50%;
+}
+h2 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 23px;
+    margin: 20px 0 5px 0;
+}
+p {
+    color: #7c8399;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.circle {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #272e36;
+    color: #7c8399;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle p {
+    margin: 0;
+}
+button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    height: 45px;
+    margin-top: 5px;
+    border: none;
+}
+.thank_card {
+    display: flex;
+    align-items: center;
+}
+.phone {
+    margin: 10px 0;
+}
+.selected {
+    width: 150px;
+    border-radius: 20px;
+    background-color: #272e36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 0 10px;
+}
+.output {
+    color: hsl(25, 97%, 53%);
+}
+.thank_card h2 {
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+}
+.thank_card p {
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+.circle:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+.chosen {
+    background-color: #7d8798;
+    color: white;
+}
+.error {
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 320px;
+    }
+    .star {
+        width: 40px;
+    }
+}
