@@ -56,6 +56,6 @@ Much more to learn with javascript, looking forward to learning how to be more e
 
 ## Author
 
-- Website - [Ahmad Ikhdair](https://github.com/AhmadIkhdair)
-- Frontend Mentor - [@AhmadIkhdair](https://www.frontendmentor.io/profile/AhmadIkhdair)
+- LinkedIn -  [Ahmad Ikhdair](https://www.linkedin.com/in/ahmad-ikhdair/)
+- Frontend Mentor - [AhmadIkhdair](https://www.frontendmentor.io/profile/AhmadIkhdair)
 
