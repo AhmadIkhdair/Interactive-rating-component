@@ -7,6 +7,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -30,6 +31,11 @@ Users should be able to:
 
 ![](./solutions/my-solution-desktop.png)
 ![](./solutions/my-solution-mobile.png)
+
+### Links
+
+- Solution URL:  [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-Pn5U-bgqI6)
+- Live Site URL:  [Live site](https://ahmadikhdair.github.io/Interactive-rating-component/)
 
 ## My process
 
